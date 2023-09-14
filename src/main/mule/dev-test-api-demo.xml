@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="dev-test-api-demoFlow" doc:id="e90e4c5a-a4de-49be-bbcf-154d3bc61678" >
 		<http:listener doc:name="Listener" doc:id="dc97c76b-ba0a-4735-bec1-4ec820198440" config-ref="HTTP_Listener_config" path="/test"/>
-		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="d9e8df7c-8007-4645-89ec-0a73007a56d3" />
+		<set-payload value="#[payload]" doc:name="SetPayload" doc:id="d9e8df7c-8007-4645-89ec-0a73007a56d3" />
 	</flow>
 </mule>
